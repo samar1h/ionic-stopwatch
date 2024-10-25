@@ -19,6 +19,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "baseHref": "./",
             "assets": [
               {
                 "glob": "**/*",
@@ -54,7 +55,9 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "./",
+              "deployUrl": "./"
             },
             "development": {
               "buildOptimizer": false,
