@@ -35,7 +35,7 @@ jobs:
         run: npm install -g @ionic/cli
 
       - name: Build Ionic Angular project
-        run: ionic build --prod --platform=web --engine=browser
+        run: ionic build --prod --platform=web --engine=browser --base-href https://smar1h.github.io/ionic-stopwatch
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
