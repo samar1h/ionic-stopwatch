@@ -15,7 +15,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    { provide: LocationStrategy, useClass: HashLocationStrategy } // Add this line
+    { provide: LocationStrategy, useClass: HashLocationStrategy } 
   ],
   bootstrap: [AppComponent],
 })
