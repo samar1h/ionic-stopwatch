@@ -7,9 +7,10 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { StopwatchModule } from './stopwatch/stopwatch.module';
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, IonicModule.forRoot({})],
+  imports: [StopwatchModule, BrowserModule, IonicModule.forRoot(), AppRoutingModule, IonicModule.forRoot({})],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
