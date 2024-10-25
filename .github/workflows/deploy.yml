@@ -37,7 +37,7 @@ jobs:
       - name: Build Ionic Angular project
         run: |
           ionic build --prod --platform=web --engine=browser --base-href /ionic-stopwatch 
-          npm i @angular/cli
+          npm i -g @angular/cli
           ng build --output-path www --base-href /ionic-stopwatch
 
 
