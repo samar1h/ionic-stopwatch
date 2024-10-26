@@ -16,6 +16,8 @@
             "outputPath": "www",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "/ionic-stopwatch/",
+            "deployUrl": "/ionic-stopwatch/",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
