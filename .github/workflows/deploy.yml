@@ -36,9 +36,8 @@ jobs:
 
       - name: Build Ionic Angular project
         run: |
-          ionic build --prod --platform=web --engine=browser --base-href /ionic-stopwatch 
-          npm i -g @angular/cli
-          ng build --output-path www --base-href /ionic-stopwatch
+          ionic build --prod --platform=web --engine=browser --base-href https://github.com/samar1h/ionic-stopwatch/
+          
 
 
       - name: Upload artifact
